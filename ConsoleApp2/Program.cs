@@ -156,63 +156,63 @@ namespace ConsoleApp2
 
             #endregion
             #region question 11
-            Console.Write("Please Enter Month Number : ");
-            int month = int.Parse(Console.ReadLine());
-            switch (month)
-            {
-                case 1:
-                    Console.WriteLine("Days in Month : 31");
-                    break;
-                case 2:
-                    Console.WriteLine("Days in Month : 28");
-                    break;
-                case 3:
-                    goto case 1;
-                case 4:
-                    Console.WriteLine("Days in Month : 30");
-                    break;
-                case 5:
-                    goto case 1;
-                case 6:
-                    goto case 4;
-                case 7:
-                    goto case 1;
-                case 8:
-                    goto case 1;
-                case 9:
-                    goto case 4;
-                case 10:
-                    goto case 1;
-                case 11:
-                    goto case 4;
-                case 12:
-                    goto case 1;
-            }
+            //Console.Write("Please Enter Month Number : ");
+            //int month = int.Parse(Console.ReadLine());
+            //switch (month)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Days in Month : 31");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month : 28");
+            //        break;
+            //    case 3:
+            //        goto case 1;
+            //    case 4:
+            //        Console.WriteLine("Days in Month : 30");
+            //        break;
+            //    case 5:
+            //        goto case 1;
+            //    case 6:
+            //        goto case 4;
+            //    case 7:
+            //        goto case 1;
+            //    case 8:
+            //        goto case 1;
+            //    case 9:
+            //        goto case 4;
+            //    case 10:
+            //        goto case 1;
+            //    case 11:
+            //        goto case 4;
+            //    case 12:
+            //        goto case 1;
+            //}
             #endregion
             #region  question 17
-            //Console.WriteLine("Please Enter Coordinates of Three Points To Check whether they lie on a single straight line. or not");
+            Console.WriteLine("Please Enter Coordinates of Three Points To Check whether they lie on a single straight line. or not");
 
-            //Console.Write("Enter X1 : ");
-            //double x1=double.Parse(Console.ReadLine());
-            //Console.Write("Enter Y1 : ");
-            //double y1 = double.Parse(Console.ReadLine());
+            Console.Write("Enter X1 : ");
+            double x1 = double.Parse(Console.ReadLine());
+            Console.Write("Enter Y1 : ");
+            double y1 = double.Parse(Console.ReadLine());
 
-            //Console.Write("Enter X2 : ");
-            //double x2 = double.Parse(Console.ReadLine());
-            //Console.Write("Enter Y2 : ");
-            //double y2 = double.Parse(Console.ReadLine());
+            Console.Write("Enter X2 : ");
+            double x2 = double.Parse(Console.ReadLine());
+            Console.Write("Enter Y2 : ");
+            double y2 = double.Parse(Console.ReadLine());
 
-            //Console.Write("Enter X3 : ");
-            //double x3 = double.Parse(Console.ReadLine());
-            //Console.Write("Enter Y1 : ");
-            //double y3 = double.Parse(Console.ReadLine());
+            Console.Write("Enter X3 : ");
+            double x3 = double.Parse(Console.ReadLine());
+            Console.Write("Enter Y1 : ");
+            double y3 = double.Parse(Console.ReadLine());
 
-            //if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))
-            //{
-            //    Console.WriteLine("The Points lie on a straight line");
-            //}
-            //else
-            //    Console.WriteLine("The Points are not lie on a straight line");
+            if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))
+            {
+                Console.WriteLine("The Points lie on a straight line");
+            }
+            else
+                Console.WriteLine("The Points are not lie on a straight line");
 
 
             #endregion
