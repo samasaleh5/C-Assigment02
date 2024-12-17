@@ -266,7 +266,7 @@ namespace ConsoleApp2
             //(b) A value 1 will be assigned to d.
             #endregion
             #region question24
-            (d)6 1
+            //(d) 6 1
             #endregion
             #region question25
             //(d) 7 7
