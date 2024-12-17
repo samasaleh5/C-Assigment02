@@ -44,57 +44,57 @@ namespace ConsoleApp2
             //}
             #endregion
             #region question 3
-            Console.Write("Enter First Number : ");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.Write("Enter Second Number : ");
-            int num2 = int.Parse(Console.ReadLine());
-            Console.Write("Enter Third Number : ");
-            int num3 = int.Parse(Console.ReadLine());
-            int max, min;
-            if (num1 >= num2 && num1 >= num3)
-            {
-                max = num1;
-            }
-            else if (num2 >= num1 && num2 >= num3)
-            {
-                max = num2;
-            }
-            else
-            {
-                max = num3;
-            }
-            if (num1 <= num2 && num1 <= num3)
-            {
-                min = num1;
-            }
-            else if (num2 <= num1 && num2 <= num3)
-            {
-                min = num2;
-            }
-            else
-            {
-                min = num3;
-            }
-            Console.WriteLine($"Maximum Number is: {max}");
-            Console.WriteLine($"Minumum Number is: {min}");
-            #endregion
-            #region question 4
-            //Console.Write("Please Enter Number : ");
-            //if (int.TryParse(Console.ReadLine(), out int number))
+            //Console.Write("Enter First Number : ");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.Write("Enter Second Number : ");
+            //int num2 = int.Parse(Console.ReadLine());
+            //Console.Write("Enter Third Number : ");
+            //int num3 = int.Parse(Console.ReadLine());
+            //int max, min;
+            //if (num1 >= num2 && num1 >= num3)
             //{
-            //    if (number % 2 == 0)
-            //    {
-            //        Console.WriteLine("Even Number");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Odd Number");
-            //    }
+            //    max = num1;
+            //}
+            //else if (num2 >= num1 && num2 >= num3)
+            //{
+            //    max = num2;
             //}
             //else
             //{
-            //    Console.WriteLine("Sorry Enter A valid Number");
+            //    max = num3;
             //}
+            //if (num1 <= num2 && num1 <= num3)
+            //{
+            //    min = num1;
+            //}
+            //else if (num2 <= num1 && num2 <= num3)
+            //{
+            //    min = num2;
+            //}
+            //else
+            //{
+            //    min = num3;
+            //}
+            //Console.WriteLine($"Maximum Number is: {max}");
+            //Console.WriteLine($"Minumum Number is: {min}");
+            #endregion
+            #region question 4
+            Console.Write("Please Enter Number : ");
+            if (int.TryParse(Console.ReadLine(), out int number))
+            {
+                if (number % 2 == 0)
+                {
+                    Console.WriteLine("Even Number");
+                }
+                else
+                {
+                    Console.WriteLine("Odd Number");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Sorry Enter A valid Number");
+            }
             #endregion
             #region question 5
             //Console.Write("Please Enter A Character : ");
