@@ -29,7 +29,7 @@ namespace ConsoleApp2
             //Console.Write("Please Enter Number:");
             //if (int.TryParse(Console.ReadLine(), out int number))
             //{
-            //    if (number < 0 )
+            //    if (number < 0)
             //    {
             //        Console.WriteLine("Negative");
             //    }
@@ -45,7 +45,7 @@ namespace ConsoleApp2
             #endregion
             #region question 3
             //Console.Write("Enter First Number : ");
-            //int num1=int.Parse(Console.ReadLine());
+            //int num1 = int.Parse(Console.ReadLine());
             //Console.Write("Enter Second Number : ");
             //int num2 = int.Parse(Console.ReadLine());
             //Console.Write("Enter Third Number : ");
@@ -60,8 +60,8 @@ namespace ConsoleApp2
             //    max = num2;
             //}
             //else
-            //{ 
-            //    max=num3;
+            //{
+            //    max = num3;
             //}
             //if (num1 <= num2 && num1 <= num3)
             //{
@@ -100,11 +100,11 @@ namespace ConsoleApp2
             //Console.Write("Please Enter A Character : ");
             //char s = Console.ReadKey().KeyChar;
             //Console.WriteLine();
-            //if (s=='a'||s=='A'||
+            //if (s == 'a' || s == 'A' ||
             //    s == 'e' || s == 'E' ||
             //    s == 'i' || s == 'I' ||
             //     s == 'o' || s == 'O' ||
-            //    s == 'u' || s == 'U' )
+            //    s == 'u' || s == 'U')
             //{
             //    Console.WriteLine("Vowel");
             //}
@@ -122,7 +122,7 @@ namespace ConsoleApp2
             //        Console.WriteLine(i * num);
             //    }
             //}
-            //else 
+            //else
             //{
             //    Console.WriteLine("Sorry Enter A valid Number");
             //}
@@ -132,7 +132,7 @@ namespace ConsoleApp2
             //int num1 = int.Parse(Console.ReadLine());
             //int num2 = int.Parse(Console.ReadLine());
             //int result = 1;
-            //for (int i = 0; i < num2; i++) 
+            //for (int i = 0; i < num2; i++)
             //{
             //    result *= num1;
             //}
@@ -144,7 +144,7 @@ namespace ConsoleApp2
             //int total = 0;
             //double avg, perc;
             //for (int i = 0; i < marks.Length; i++)
-            //{ 
+            //{
             //    marks[i] = int.Parse(Console.ReadLine());
             //    total += marks[i];
             //}
@@ -157,7 +157,7 @@ namespace ConsoleApp2
             #endregion
             #region question 11
             //Console.Write("Please Enter Month Number : ");
-            //int month=int.Parse(Console.ReadLine());
+            //int month = int.Parse(Console.ReadLine());
             //switch (month)
             //{
             //    case 1:
@@ -193,7 +193,7 @@ namespace ConsoleApp2
             //Console.WriteLine("Please Enter Coordinates of Three Points To Check whether they lie on a single straight line. or not");
 
             //Console.Write("Enter X1 : ");
-            //double x1=double.Parse(Console.ReadLine());
+            //double x1 = double.Parse(Console.ReadLine());
             //Console.Write("Enter Y1 : ");
             //double y1 = double.Parse(Console.ReadLine());
 
