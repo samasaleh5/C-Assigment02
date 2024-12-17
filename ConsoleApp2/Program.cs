@@ -217,34 +217,34 @@ namespace ConsoleApp2
 
             #endregion
             #region question 18
-            Console.Write("Please Enter time take by worker To complete a task(in hours) : ");
-            double TimeByWorker = double.Parse(Console.ReadLine());
-            if (TimeByWorker >= 2 && TimeByWorker <= 3)
-            {
-                Console.WriteLine("The Worker is highly efficient ");
-            }
-            else if (TimeByWorker > 3 && TimeByWorker <= 4)
-            {
-                Console.WriteLine("The Worker need to increase their speed ");
-            }
-            else if (TimeByWorker > 4 && TimeByWorker <= 5)
-            {
-                Console.WriteLine("The Worker need to enhance their speed ");
-            }
-            else
-                Console.WriteLine("Worker need to leave company!!!");
+            //Console.Write("Please Enter time take by worker To complete a task(in hours) : ");
+            //double TimeByWorker = double.Parse(Console.ReadLine());
+            //if (TimeByWorker >= 2 && TimeByWorker <= 3)
+            //{
+            //    Console.WriteLine("The Worker is highly efficient ");
+            //}
+            //else if (TimeByWorker > 3 && TimeByWorker <= 4)
+            //{
+            //    Console.WriteLine("The Worker need to increase their speed ");
+            //}
+            //else if (TimeByWorker > 4 && TimeByWorker <= 5)
+            //{
+            //    Console.WriteLine("The Worker need to enhance their speed ");
+            //}
+            //else
+            //    Console.WriteLine("Worker need to leave company!!!");
             #endregion
             #region question21
-            //int x = 6;
-            //int y = x;
-            //Console.WriteLine("First Value of X is " + x);
-            //Console.WriteLine("First Value of Y is " + y);
-            //Console.WriteLine("=============================");
-            //x = 10;
-            //Console.WriteLine("Second Value of X is " + x);
-            //Console.WriteLine("Second Value of Y is " + y);
-            //Console.WriteLine("=============================");
-            ////after modification y not affected because it take copy of first value of x not affected by anychange
+            int x = 6;
+            int y = x;
+            Console.WriteLine("First Value of X is " + x);
+            Console.WriteLine("First Value of Y is " + y);
+            Console.WriteLine("=============================");
+            x = 10;
+            Console.WriteLine("Second Value of X is " + x);
+            Console.WriteLine("Second Value of Y is " + y);
+            Console.WriteLine("=============================");
+            //after modification y not affected because it take copy of first value of x not affected by anychange
             #endregion
             #region question22
             //Class1 P1 = new Class1();
