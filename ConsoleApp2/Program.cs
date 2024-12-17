@@ -247,20 +247,20 @@ namespace ConsoleApp2
             ////after modification y not affected because it take copy of first value of x not affected by anychange
             #endregion
             #region question22
-            Class1 P1 = new Class1();
-            P1.x = 21;
-            P1.y = 5;
-            Class1 P2 = new Class1();
-            P2 = P1;
-            Console.WriteLine("Before modification:");
-            Console.WriteLine("Point1: " + P1);
-            Console.WriteLine("Point2: " + P2);
-            P1.x = 14;
-            P1.y = 3;
-            Console.WriteLine("After modification:");
-            Console.WriteLine("Point1: " + P1);
-            Console.WriteLine("Point2: " + P2);
-            //when assigned two variable by ref two variable points to same memory location so when modify one of them the other change automatically
+            //Class1 P1 = new Class1();
+            //P1.x = 21;
+            //P1.y = 5;
+            //Class1 P2 = new Class1();
+            //P2 = P1;
+            //Console.WriteLine("Before modification:");
+            //Console.WriteLine("Point1: " + P1);
+            //Console.WriteLine("Point2: " + P2);
+            //P1.x = 14;
+            //P1.y = 3;
+            //Console.WriteLine("After modification:");
+            //Console.WriteLine("Point1: " + P1);
+            //Console.WriteLine("Point2: " + P2);
+            ////when assigned two variable by ref two variable points to same memory location so when modify one of them the other change automatically
             #endregion
             #region question23
             //(b) A value 1 will be assigned to d.
