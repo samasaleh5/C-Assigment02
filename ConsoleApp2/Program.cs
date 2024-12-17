@@ -139,55 +139,55 @@ namespace ConsoleApp2
             //Console.WriteLine($"Output is: {result}");
             #endregion
             #region question 10
-            Console.WriteLine("Enter Marks of Five Subject :");
-            int[] marks = new int[5];
-            int total = 0;
-            double avg, perc;
-            for (int i = 0; i < marks.Length; i++)
-            {
-                marks[i] = int.Parse(Console.ReadLine());
-                total += marks[i];
-            }
-            avg = total / 5.0;
-            perc = (total / 500.0) * 100;
-            Console.WriteLine($"Total is: {total}");
-            Console.WriteLine($"Average is: {avg}");
-            Console.WriteLine($"Perc is: {perc}");
+            //Console.WriteLine("Enter Marks of Five Subject :");
+            //int[] marks = new int[5];
+            //int total = 0;
+            //double avg, perc;
+            //for (int i = 0; i < marks.Length; i++)
+            //{
+            //    marks[i] = int.Parse(Console.ReadLine());
+            //    total += marks[i];
+            //}
+            //avg = total / 5.0;
+            //perc = (total / 500.0) * 100;
+            //Console.WriteLine($"Total is: {total}");
+            //Console.WriteLine($"Average is: {avg}");
+            //Console.WriteLine($"Perc is: {perc}");
 
             #endregion
             #region question 11
-            //Console.Write("Please Enter Month Number : ");
-            //int month=int.Parse(Console.ReadLine());
-            //switch (month)
-            //{
-            //    case 1:
-            //        Console.WriteLine("Days in Month : 31");
-            //        break;
-            //    case 2:
-            //        Console.WriteLine("Days in Month : 28");
-            //        break;
-            //    case 3:
-            //        goto case 1;
-            //    case 4:
-            //        Console.WriteLine("Days in Month : 30");
-            //        break;
-            //    case 5:
-            //        goto case 1;
-            //    case 6:
-            //        goto case 4;
-            //    case 7:
-            //        goto case 1;
-            //    case 8:
-            //        goto case 1;
-            //    case 9:
-            //        goto case 4;
-            //    case 10:
-            //        goto case 1;
-            //    case 11:
-            //        goto case 4;
-            //    case 12:
-            //        goto case 1;
-            //}
+            Console.Write("Please Enter Month Number : ");
+            int month = int.Parse(Console.ReadLine());
+            switch (month)
+            {
+                case 1:
+                    Console.WriteLine("Days in Month : 31");
+                    break;
+                case 2:
+                    Console.WriteLine("Days in Month : 28");
+                    break;
+                case 3:
+                    goto case 1;
+                case 4:
+                    Console.WriteLine("Days in Month : 30");
+                    break;
+                case 5:
+                    goto case 1;
+                case 6:
+                    goto case 4;
+                case 7:
+                    goto case 1;
+                case 8:
+                    goto case 1;
+                case 9:
+                    goto case 4;
+                case 10:
+                    goto case 1;
+                case 11:
+                    goto case 4;
+                case 12:
+                    goto case 1;
+            }
             #endregion
             #region  question 17
             //Console.WriteLine("Please Enter Coordinates of Three Points To Check whether they lie on a single straight line. or not");
