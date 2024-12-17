@@ -114,29 +114,29 @@ namespace ConsoleApp2
             //}
             #endregion
             #region question 7
-            Console.Write("Please Enter A Number : ");
-            if (int.TryParse(Console.ReadLine(), out int num))
-            {
-                for (int i = 1; i <= 12; i++)
-                {
-                    Console.WriteLine(i * num);
-                }
-            }
-            else
-            {
-                Console.WriteLine("Sorry Enter A valid Number");
-            }
+            //Console.Write("Please Enter A Number : ");
+            //if (int.TryParse(Console.ReadLine(), out int num))
+            //{
+            //    for (int i = 1; i <= 12; i++)
+            //    {
+            //        Console.WriteLine(i * num);
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Sorry Enter A valid Number");
+            //}
             #endregion
             #region question 9
-            //Console.Write("Please Enter Two Number : ");
-            //int num1 = int.Parse(Console.ReadLine());
-            //int num2 = int.Parse(Console.ReadLine());
-            //int result = 1;
-            //for (int i = 0; i < num2; i++) 
-            //{
-            //    result *= num1;
-            //}
-            //Console.WriteLine($"Output is: {result}");
+            Console.Write("Please Enter Two Number : ");
+            int num1 = int.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
+            int result = 1;
+            for (int i = 0; i < num2; i++)
+            {
+                result *= num1;
+            }
+            Console.WriteLine($"Output is: {result}");
             #endregion
             #region question 10
             //Console.WriteLine("Enter Marks of Five Subject :");
