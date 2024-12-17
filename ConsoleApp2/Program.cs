@@ -128,31 +128,31 @@ namespace ConsoleApp2
             //}
             #endregion
             #region question 9
-            Console.Write("Please Enter Two Number : ");
-            int num1 = int.Parse(Console.ReadLine());
-            int num2 = int.Parse(Console.ReadLine());
-            int result = 1;
-            for (int i = 0; i < num2; i++)
-            {
-                result *= num1;
-            }
-            Console.WriteLine($"Output is: {result}");
+            //Console.Write("Please Enter Two Number : ");
+            //int num1 = int.Parse(Console.ReadLine());
+            //int num2 = int.Parse(Console.ReadLine());
+            //int result = 1;
+            //for (int i = 0; i < num2; i++)
+            //{
+            //    result *= num1;
+            //}
+            //Console.WriteLine($"Output is: {result}");
             #endregion
             #region question 10
-            //Console.WriteLine("Enter Marks of Five Subject :");
-            //int[] marks = new int[5];
-            //int total = 0;
-            //double avg, perc;
-            //for (int i = 0; i < marks.Length; i++)
-            //{ 
-            //    marks[i] = int.Parse(Console.ReadLine());
-            //    total += marks[i];
-            //}
-            //avg = total / 5.0;
-            //perc = (total / 500.0) * 100;
-            //Console.WriteLine($"Total is: {total}");
-            //Console.WriteLine($"Average is: {avg}");
-            //Console.WriteLine($"Perc is: {perc}");
+            Console.WriteLine("Enter Marks of Five Subject :");
+            int[] marks = new int[5];
+            int total = 0;
+            double avg, perc;
+            for (int i = 0; i < marks.Length; i++)
+            {
+                marks[i] = int.Parse(Console.ReadLine());
+                total += marks[i];
+            }
+            avg = total / 5.0;
+            perc = (total / 500.0) * 100;
+            Console.WriteLine($"Total is: {total}");
+            Console.WriteLine($"Average is: {avg}");
+            Console.WriteLine($"Perc is: {perc}");
 
             #endregion
             #region question 11
