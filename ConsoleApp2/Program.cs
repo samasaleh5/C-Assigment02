@@ -97,35 +97,35 @@ namespace ConsoleApp2
             //}
             #endregion
             #region question 5
-            Console.Write("Please Enter A Character : ");
-            char s = Console.ReadKey().KeyChar;
-            Console.WriteLine();
-            if (s == 'a' || s == 'A' ||
-                s == 'e' || s == 'E' ||
-                s == 'i' || s == 'I' ||
-                 s == 'o' || s == 'O' ||
-                s == 'u' || s == 'U')
+            //Console.Write("Please Enter A Character : ");
+            //char s = Console.ReadKey().KeyChar;
+            //Console.WriteLine();
+            //if (s == 'a' || s == 'A' ||
+            //    s == 'e' || s == 'E' ||
+            //    s == 'i' || s == 'I' ||
+            //     s == 'o' || s == 'O' ||
+            //    s == 'u' || s == 'U')
+            //{
+            //    Console.WriteLine("Vowel");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Consonant");
+            //}
+            #endregion
+            #region question 7
+            Console.Write("Please Enter A Number : ");
+            if (int.TryParse(Console.ReadLine(), out int num))
             {
-                Console.WriteLine("Vowel");
+                for (int i = 1; i <= 12; i++)
+                {
+                    Console.WriteLine(i * num);
+                }
             }
             else
             {
-                Console.WriteLine("Consonant");
+                Console.WriteLine("Sorry Enter A valid Number");
             }
-            #endregion
-            #region question 7
-            //Console.Write("Please Enter A Number : ");
-            //if (int.TryParse(Console.ReadLine(), out int num))
-            //{
-            //    for (int i = 1; i <= 12; i++)
-            //    {
-            //        Console.WriteLine(i * num);
-            //    }
-            //}
-            //else 
-            //{
-            //    Console.WriteLine("Sorry Enter A valid Number");
-            //}
             #endregion
             #region question 9
             //Console.Write("Please Enter Two Number : ");
