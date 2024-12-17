@@ -190,49 +190,49 @@ namespace ConsoleApp2
             //}
             #endregion
             #region  question 17
-            Console.WriteLine("Please Enter Coordinates of Three Points To Check whether they lie on a single straight line. or not");
+            //Console.WriteLine("Please Enter Coordinates of Three Points To Check whether they lie on a single straight line. or not");
 
-            Console.Write("Enter X1 : ");
-            double x1 = double.Parse(Console.ReadLine());
-            Console.Write("Enter Y1 : ");
-            double y1 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter X1 : ");
+            //double x1 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter Y1 : ");
+            //double y1 = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter X2 : ");
-            double x2 = double.Parse(Console.ReadLine());
-            Console.Write("Enter Y2 : ");
-            double y2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter X2 : ");
+            //double x2 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter Y2 : ");
+            //double y2 = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter X3 : ");
-            double x3 = double.Parse(Console.ReadLine());
-            Console.Write("Enter Y1 : ");
-            double y3 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter X3 : ");
+            //double x3 = double.Parse(Console.ReadLine());
+            //Console.Write("Enter Y1 : ");
+            //double y3 = double.Parse(Console.ReadLine());
 
-            if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))
-            {
-                Console.WriteLine("The Points lie on a straight line");
-            }
-            else
-                Console.WriteLine("The Points are not lie on a straight line");
+            //if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))
+            //{
+            //    Console.WriteLine("The Points lie on a straight line");
+            //}
+            //else
+            //    Console.WriteLine("The Points are not lie on a straight line");
 
 
             #endregion
             #region question 18
-            //Console.Write("Please Enter time take by worker To complete a task(in hours) : ");
-            //double TimeByWorker = double.Parse(Console.ReadLine());
-            //if (TimeByWorker >= 2 && TimeByWorker <= 3)
-            //{
-            //    Console.WriteLine("The Worker is highly efficient ");
-            //}
-            //else if (TimeByWorker > 3 && TimeByWorker <= 4)
-            //{
-            //    Console.WriteLine("The Worker need to increase their speed ");
-            //}
-            //else if (TimeByWorker > 4 && TimeByWorker <= 5)
-            //{
-            //    Console.WriteLine("The Worker need to enhance their speed ");
-            //}
-            //else
-            //    Console.WriteLine("Worker need to leave company!!!");
+            Console.Write("Please Enter time take by worker To complete a task(in hours) : ");
+            double TimeByWorker = double.Parse(Console.ReadLine());
+            if (TimeByWorker >= 2 && TimeByWorker <= 3)
+            {
+                Console.WriteLine("The Worker is highly efficient ");
+            }
+            else if (TimeByWorker > 3 && TimeByWorker <= 4)
+            {
+                Console.WriteLine("The Worker need to increase their speed ");
+            }
+            else if (TimeByWorker > 4 && TimeByWorker <= 5)
+            {
+                Console.WriteLine("The Worker need to enhance their speed ");
+            }
+            else
+                Console.WriteLine("Worker need to leave company!!!");
             #endregion
             #region question21
             //int x = 6;
