@@ -8,40 +8,40 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             #region question 1
-            Console.Write("Please Enter Number:");
-            if (int.TryParse(Console.ReadLine(), out int number))
-            {
-                if (number % 3 == 0 && number % 4 == 0)
-                {
-                    Console.WriteLine("Yes");
-                }
-                else
-                {
-                    Console.WriteLine("No");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Sorry Enter A valid Number");
-            }
-            #endregion
-            #region question 2
             //Console.Write("Please Enter Number:");
             //if (int.TryParse(Console.ReadLine(), out int number))
             //{
-            //    if (number < 0 )
+            //    if (number % 3 == 0 && number % 4 == 0)
             //    {
-            //        Console.WriteLine("Negative");
+            //        Console.WriteLine("Yes");
             //    }
             //    else
             //    {
-            //        Console.WriteLine("Postive");
+            //        Console.WriteLine("No");
             //    }
             //}
             //else
             //{
             //    Console.WriteLine("Sorry Enter A valid Number");
             //}
+            #endregion
+            #region question 2
+            Console.Write("Please Enter Number:");
+            if (int.TryParse(Console.ReadLine(), out int number))
+            {
+                if (number < 0)
+                {
+                    Console.WriteLine("Negative");
+                }
+                else
+                {
+                    Console.WriteLine("Postive");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Sorry Enter A valid Number");
+            }
             #endregion
             #region question 3
             //Console.Write("Enter First Number : ");
