@@ -8,22 +8,22 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             #region question 1
-            //Console.Write("Please Enter Number:");
-            //if (int.TryParse(Console.ReadLine(), out int number))
-            //{
-            //    if (number % 3 == 0 && number % 4 == 0)
-            //    {
-            //        Console.WriteLine("Yes");
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("No");
-            //    }
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Sorry Enter A valid Number");
-            //}
+            Console.Write("Please Enter Number:");
+            if (int.TryParse(Console.ReadLine(), out int number))
+            {
+                if (number % 3 == 0 && number % 4 == 0)
+                {
+                    Console.WriteLine("Yes");
+                }
+                else
+                {
+                    Console.WriteLine("No");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Sorry Enter A valid Number");
+            }
             #endregion
             #region question 2
             //Console.Write("Please Enter Number:");
